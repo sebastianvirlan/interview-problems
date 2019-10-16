@@ -5,7 +5,7 @@ class RoverActions {
   }
 
   move() {
-    const tupple = this.setup.roverDirectionMoveMap[this.rover.direction]
+    const tupple = this.setup.roverDirectionMove[this.rover.direction]
     this.rover[tupple[0]] = this.rover[tupple[0]] + tupple[1]
   }
 

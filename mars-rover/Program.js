@@ -1,16 +1,16 @@
 // Models
-const Plateau = require('./models/Plateau')
-const Rover = require('./models/Rover')
-const RoverActionsSetup = require('./models/RoverActionsSetup')
+const Plateau = require('./src/models/Plateau')
+const Rover = require('./src/models/Rover')
+const RoverActionsSetup = require('./src/models/RoverActionsSetup')
 
 // Decorators
-const RoverActions = require('./decorators/RoverActions')
+const RoverActions = require('./src/decorators/RoverActions')
 
 // Mappings
-const Coordinates = require('./mappings/Coordinates')
-const leftCoordinates = require('./mappings/LeftCoordinates')
-const rightCoordinates = require('./mappings/RightCoordinates')
-const roverDirectionMove = require('./mappings/RoverDirectionMoveMap')
+const Coordinates = require('./src/mappings/Coordinates')
+const leftCoordinates = require('./src/mappings/LeftCoordinates')
+const rightCoordinates = require('./src/mappings/RightCoordinates')
+const roverDirectionMove = require('./src/mappings/RoverDirectionMove')
 
 // src
 const RoverCommandParser = require('./src/RoverCommandParser')

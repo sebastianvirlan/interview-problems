@@ -1,8 +1,8 @@
 class RoverActionsSetup {
-  constructor(leftCoordinates, rightCoordinates, roverDirectionMoveMap) {
+  constructor(leftCoordinates, rightCoordinates, roverDirectionMove) {
     this.leftCoordinates = leftCoordinates
     this.rightCoordinates = rightCoordinates
-    this.roverDirectionMoveMap = roverDirectionMoveMap
+    this.roverDirectionMove = roverDirectionMove
   }
 }
 

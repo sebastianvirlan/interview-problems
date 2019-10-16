@@ -1,4 +1,4 @@
-const RoverActionsMap = require('../mappings/RoverCommandActionsMap')
+const RoverActionsMap = require('./mappings/RoverCommandActionsMap')
 
 class RoverCommandParser {
   constructor(command) {
