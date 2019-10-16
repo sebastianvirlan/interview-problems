@@ -1,0 +1,22 @@
+{
+  "name": "interview-problems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Program.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianvirlan/interview-problems.git"
+  },
+  "author": "Sebastian Virlan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianvirlan/interview-problems/issues"
+  },
+  "homepage": "https://github.com/sebastianvirlan/interview-problems#readme",
+  "devDependencies": {
+    "mocha": "^6.2.1"
+  }
+}
